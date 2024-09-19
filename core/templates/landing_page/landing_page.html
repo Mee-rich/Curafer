@@ -1,0 +1,185 @@
+{% extends "main.html" %}
+  
+{% block content %}
+<!-- Inventory Section -->
+<section class="inventory-section">
+    <h2>Manage Your Inventory</h2>
+    <p>Add products for sale, set price ranges, and 
+        efficiently manage your inventory.
+    </p>
+    <div class="button-container">
+        <a href="#" class="get-started">Get Started</a>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+</section>
+ <!-- Contact Form Section -->
+<section class="contact-form-section">
+    <h2>Get in touch</h2>
+    <p>Have any questions? We're here to help!</p>
+
+    <form action="#">
+        <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+        </div>
+        <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+            <label for="topic">Choose a topic</label>
+            <select name="topic" id="topic">
+                <option value="">Select a topic</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option2</option>
+                <option value="option3">Option3</option>
+                <option value="option4">Option4</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Which best describes you?</p>
+            <label><input type="radio" name="description" value="option1">Option 1</label><br>
+            <label><input type="radio" name="description" value="option2">Option 2</label><br>
+            <label><input type="radio" name="description" value="option3"> Option 3</label><br>
+            <label><input type="radio" name="description" value="option4"> Option 4</label><br>
+            <label><input type="radio" name="description" value="other"> Other</label>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+        </div>
+        <div class="form-group">
+            <label>
+                <input type="checkbox" name="terms" required>I agree to the terms
+            </label>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+</section>
+<!-- Project Management Section -->
+<section class="product-management-section">
+    <div class="content">
+        <h2>
+            Simplify Product Management and Boost Sales with 
+            Curafer's User-Friendly Interface
+        </h2>
+        <p>With Curafer, users can easily add products for sasle,
+            manage their inventory, and edit product prices with few clicks.
+            Streamline your online store and maximize your sales potential.
+        </p>
+        <div class="features">
+            <div class="feature">
+                <img src="#" alt="Easy Setup" class="feature-icon">
+                <h3>Easy Setup</h3>
+                <p>Effortlessly add produtcs, set up inventory, and manage 
+                    detailed descriptions from your dashboard
+                </p>
+            </div>
+            <div class="feature">
+                <img src="" alt="Inventory Control" class="feature-icon">
+                <h3>Inventory Control</h3>
+                <p>Stay ahead of your stock levels, record alerts,
+                    and manage your inventory efficiently.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="#" alt="Product Management" class="product-image">
+    </div>
+</section>
+<!-- Inventory Management Section -->
+<section class="inventory-management-section">
+    <div class="content">
+        <h2>Effortlessly Manage Your Inventory With 
+            Curafer's Powerful Features
+        </h2>
+        <p>With Curafer, you can easily add products, set prices, and
+            track inventory for your store. Take control of your
+            supply chain today!
+        </p>
+    </div>
+    <div class="image-container">
+        <img src="#" alt="Inventory Management" class="inventory-image">
+    </div>
+</section>
+<!-- Price Range Section -->
+<section class="price-range-section">
+    <div class="content">
+        <h2>Effortlessly Set Product Price Ranges to Maximize
+            Profitability and Attract Customers
+        </h2>
+        <p>With Curafer, users can easily define the public range for their
+            products, ensuring competitive pricing amd increased sales. 
+            By setting the price right ranges, businesses can attract more Customers
+            while maximizing Profitability.
+        </p>
+        <div class="features">
+            <div class="feature">
+                <img src="#" alt="Easy Setup" class="feature-icon">
+                <h3>Easy Setup</h3>
+                <p>Efficiently manage your product pricing using customizable price
+                    ranges to suit your business needs.
+                </p>
+            </div>
+            <div class="feature">
+                <img src="#" alt="Increased Sales" class="feature-icon">
+                <h3>Increased Sales</h3>
+                <p>Ensuring a range of prices maximizes performance
+                    and attracts more customers.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="#" alt="Price Management" class="price-image">
+    </div>
+</section>
+<!-- User Activity Timeline Section -->
+<section class="user-activity-timeline">
+    <h2>User Activity Timeline</h2>
+    <button class="view-button">View All</button>
+
+    <div class="activity-list">
+        <div class="activity-item">
+            <img src="" alt="Recent Activity" class="activity-icon">
+            <div class="activity-content">
+                <h3>Recent Activity</h3>
+                <p>Track the changes and updates made by users over time.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="" alt="Product Update" class="activity-icon">
+            <div class="activity-content">
+                <h3>Product Update</h3>
+                <p>Tackle installations and improvements made to products by users.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="" alt="Inventory Changes" class="activity-icon">
+            <div class="activity-content">
+                <h3>Inventory Changes</h3>
+                <p>Monitor the adjustments and updates to inventory levels.</p>
+            </div>
+        </div>
+        <div class="activity-item">
+            <img src="" alt="Price Range Updates" class="activity-icon">
+            <div class="activity-content">
+                <h3>Price Range Updates</h3>
+                <p>Keep track of the changes and modifications made to price ranges.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

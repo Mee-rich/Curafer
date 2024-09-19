@@ -1,4 +1,5 @@
 # Files and folders to ignore while adding 
 # files to the github repository
 
-venv/
+.venv/
+db.sqlite3
