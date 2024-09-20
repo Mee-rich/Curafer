@@ -192,7 +192,7 @@
             <h2> About CURAFER </h2>
             <p>
                 CURAFER was born out of a personal frustration I encountered while helping small businesses manage their supply chain. I saw firsthand, how many struggled with inefficiencies, from overstocking products to ,issing critical reordering window.
-                My background in software development motivated me to find a solution, one that could simplify these processes for businesses that can't afford complex ERP systems. With this visin in mind, I started developing CURAFER as my portfolio project at <a href="https://www.alxafrica.com>ALX SE</a>, where I could combine my passion for coding with a practical solution to real-world business challenges. I seek to make the project become more robust to handle complex supply chain issues small-to-medium enterprises (SMEs) face.
+                My background in software development motivated me to find a solution, one that could simplify these processes for businesses that can't afford complex ERP systems. With this visin in mind, I started developing CURAFER as my portfolio project at <a href="https://www.alxafrica.com">ALX SE</a> where I could combine my passion for coding with a practical solution to real-world business challenges. I seek to make the project become more robust to handle complex supply chain issues small-to-medium enterprises (SMEs) face.
             </p>
 
             <h3> Team Members</h3>
