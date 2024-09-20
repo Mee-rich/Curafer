@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CURAFER - Supply and Demand Management</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <style>
         * {
@@ -105,18 +105,52 @@
         opacity: 0.7;
         }
 
-        /* Set a specific color for each brand */
-
-        /* linkedin */
-        .fa-linkedin {
-            background: #007bb5;
-            color: white;
+        /* Style for the team links section */
+        .team-links {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin: 20px 0;
         }
 
-        /* Twitter */
-        .fa-twitter {
-        background: #55ACEE;
-        color: white;
+        .team-links li {
+            margin-bottom: 15px;
+        }
+
+        .team-links p {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .team-links a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #1abc9c;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .team-links a:hover {
+            background-color: #16a085;
+        }
+
+        .team-links .social-link i {
+            margin-right: 8px;
+        }
+
+        .social-link {
+            font-size: 1.1em;
+        }
+
+        .social-link i {
+            font-size: 1.3em;
+            vertical-align: middle;
+			margin-right: 10px;
         }
 
     </style>
@@ -152,28 +186,28 @@
         </div>
     </section>
 
-    <!-- <section id="team" class="team-section">
-        <div class="container">
-            <h2>Meet the Team</h2>
-            <p>Adesuyi Adegbenga - Backend and Frontend Developer</p>
-        </div>
-    </section> -->
 
     <section id="about" class="about-section">
         <div class="container">
             <h2> About CURAFER </h2>
             <p>
                 CURAFER was born out of a personal frustration I encountered while helping small businesses manage their supply chain. I saw firsthand, how many struggled with inefficiencies, from overstocking products to ,issing critical reordering window.
-                My background in software development motivated me to find a solution, one that could simplify these processes for businesses that can't afford complex ERP systems. With this visin in mind, I started developing CURAFER as my portfolio project at <a href="https://www.alxafrica.com>ALX SE</a>, where I couyld combine my passion for coding with a practical solution to real-world business challenges. I seek to make the project become more robust to handle complex supply chain issues small-to-medium enterprises (SMEs) face.
+                My background in software development motivated me to find a solution, one that could simplify these processes for businesses that can't afford complex ERP systems. With this visin in mind, I started developing CURAFER as my portfolio project at <a href="https://www.alxafrica.com>ALX SE</a>, where I could combine my passion for coding with a practical solution to real-world business challenges. I seek to make the project become more robust to handle complex supply chain issues small-to-medium enterprises (SMEs) face.
             </p>
 
             <h3> Team Members</h3>
-            <ul class="team-links>
+            <ul class="team-links">
                 <li>
                     <p>Adesuyi Adegbenga - Backend and Frontend Developer</p>
-                    <a href="https://linkedin.com/in/adesuyi-adegbenga" target="_blank" class="fa fa-linkedin">Linkedin</a>
-                    <a href="https://github.com/mee-rich" target="_blank">Github<i class="fa fa-github"></i></a>
-                    <a href="https://twitter.com/" target="_blank">Twitter<i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://linkedin.com/in/adesuyi-adegbenga" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/mee-rich" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/itmeerich" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                 </li>
             </ul>
             
